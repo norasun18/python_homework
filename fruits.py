@@ -1,0 +1,8 @@
+money = input("How much money do you have?\n")
+m = float(money)
+banana = m//(0.17*1.49)
+apple = m//(0.17*2.49)
+orange = m//(0.27*1.99)
+print("You can buy", banana, "bananas.")
+print("You can buy", apple, "apples.")
+print("You can buy", orange, "oranges.")
